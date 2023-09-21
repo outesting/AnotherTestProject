@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "AnotherTestProject"
+  description: "We don't need another test project"
+  annotations:
+    github.com/project-slug: tanuudemo/AnotherTestProject
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: repository
+  lifecycle: experimental
+  owner: "group:default/admin"
